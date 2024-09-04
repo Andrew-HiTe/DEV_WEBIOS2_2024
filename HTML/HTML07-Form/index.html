@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>RPG de Patos * Patonifique o seu formulário</h3>
+    <form action="">
+        <label for="">Digite seu nome</label>
+        <input type="text"  placeholder="Clique aqui para digitar">
+    
+        <!-- Níveis de conhecimento sobre patos (iniciante / Intermediário / Mestre) -->
+        <br><br><br>
+
+        <input type= "radio" id="iniciante" name="nivel">
+        <label for="iniciante">iniciante</label>
+
+        <input type= "radio" id="intermediario" name="nivel">
+        <label for="intermediario">intermediário</label>
+
+        <input type= "radio" id="mestre" name="nivel">
+        <label for="mestre">Mestre(Patauro)</label>
+        
+        <br><br>
+
+        <!-- Com quantas pessoas ele gosta de jogar -->
+    <h4>Com quantos patonautas você quer jogar?</h4>
+        
+        <input type="checkbox">
+        <label for="1pato">1 Pato</label> <br>
+
+        <input type="checkbox">
+        <label for="2patos">2 Patos</label> <br>
+
+        <input type="checkbox">
+        <label for="4patos">4 Patos</label> <br>
+
+        <br><br><br>
+    <h4>Selecione o modo de jogo</h4>
+        <!-- Selecionar se prefere jogar online ou offline -->
+        Online<input type="range"> Offline
+
+        <br><br><br>
+        <label for="">Selecione sua PatoSkill</label>
+        <select name="" id="">
+            <option value=""></option>
+            <option value="Pato Dev">Pato Dev</option>
+            <option value="Pato Guerreiro">Pato Guerreiro</option>
+            <option value="Pato Man">Pato Man</option>
+            <option value="Pato Life">Pato Life</option>
+            <option value="Pato Pombo">Pato Pombo</option>
+            <option value="Pato Sauro">Pato Sauro</option>
+            <option value="Pato Mago">Pato Mago</option>
+            <option value="Pato rich">Pato rich</option>
+        </select>
+
+        <br><br><br>
+        <!-- Pra escrever e selecionar uma opção -->
+        <label for="patolugares">Selecione seu mapa</label>
+        <input list="lugar" type="text" id="patolugares" autocomplete="on">
+        <datalist id="lugar">
+            <option value="PatoBizzer"></option>
+            <option value="PatoWhite"></option>
+            <option value="PatoCity"></option>
+            <option value="PatoPark"></option>
+            <option value="PatoBlack"></option>
+        </datalist>
+        
+<br><br><br>
+
+        <label for="">O quê você gostaria no seu mundo?</label> <br>
+        <textarea name="" id="" cols="50" rows="4"></textarea>
+    </form>
+</body>
+</html>
