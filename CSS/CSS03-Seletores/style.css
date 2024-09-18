@@ -1,0 +1,33 @@
+body{
+    background-color:aquamarine  ;
+}
+#id1 {
+    
+}
+.divs{
+
+}
+#sect1{
+    background-color:red;
+}
+#sect2{
+    background-color: purple;
+}
+#tag_a{
+color: white;
+font-size: 35px;
+}
+#tag_a2{
+    color: gray;
+    font-size: 54px;
+}
+.h3{
+    color:green;
+    background-color: white;
+}
+
+/* CSS sem id e sem class */
+section h2 {
+    color:blue;
+
+}
