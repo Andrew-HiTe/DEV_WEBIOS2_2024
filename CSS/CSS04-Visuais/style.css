@@ -1,0 +1,40 @@
+body{
+    background-image: url("/CSS/CSS04-Visuais/premium_photo-1668130718429-7abf7b186f2f.jfif");
+    background-size: 100%;
+    background-position: center ;
+    background-attachment:fixed;
+}
+p{
+    text-shadow:  3px 3px 2px rgb(66, 6, 6);
+    background-color: rgb(255, 0, 34);
+    background-size:;
+    color: rgb(79, 255, 255);
+    font-size: large;
+}
+#p1{
+    border-width: 5px;
+    border-color: rgb(140, 0, 255);
+    border-style: outset;
+    /* Pode ser interpretado como: 
+    border: 2p aqua(cor) solid    
+     */
+}
+#p2{
+    border: groove rgba(217, 236, 43, 0.726) 10px
+}
+img{
+    box-shadow: 10px 10px 10px black;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px
+}
+figure{
+    box-shadow: 10px 10px 10px black;
+    font-size: 3rem;
+    color: blanchedalmond;
+    border: 10px ;
+    border-style:groove;
+    border-radius: 
+    ;
+
+}
