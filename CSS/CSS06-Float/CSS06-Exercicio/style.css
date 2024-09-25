@@ -1,20 +1,47 @@
-*{
-    font-family: "Roboto Mono", system-ui;
-}
-body{
-    margin: auto;
-    width: 80%;
-}
-img{
-  width: 30%;
-  height: 40%;
-}
-section{
-    border: 1px solid black;
-    margin: 2%;
+@charset "utf-08";
 
+header,body,footer {
+  background-color: #d4efdf;
+  margin: 2% 4%;
+}
+
+#imageminicial {
+  width: 20%;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+nav{
+    margin: 0px 0px 0px 20px;
+}
+section {
+  border: 1px solid black;
+  padding: 1%; 
+      
+}
+.tamanhoimagem {
+  width: 500px;
+  height: 350px;
+}
+.quadradodaimagem {
+  border: 1px solid black;
+  width: fit-content;
+  
+  
 }
 figure{
     border: 1px solid black;
-    width:fit-content;
+    
+}
+
+figcaption{
+    text-align: center;
+}
+
+#imagem3{
+    float: right;
+}
+#imagem4{
+    clear: both;
 }
