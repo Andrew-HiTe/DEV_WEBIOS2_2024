@@ -1,0 +1,20 @@
+*{
+    font-family: "Roboto Mono", system-ui;
+}
+body{
+    margin: auto;
+    width: 80%;
+}
+img{
+  width: 30%;
+  height: 40%;
+}
+section{
+    border: 1px solid black;
+    margin: 2%;
+
+}
+figure{
+    border: 1px solid black;
+    width:fit-content;
+}
