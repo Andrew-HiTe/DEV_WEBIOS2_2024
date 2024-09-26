@@ -1,47 +1,71 @@
 @charset "utf-08";
 
-header,body,footer {
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header,
+main,
+footer {
   background-color: #d4efdf;
-  margin: 2% 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+#imageminicial {
+  width: 200px;
+  height: 150px;
+  margin-left: 3rem;
 }
 
-#imageminicial {
-  width: 20%;
-}
-header{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-}
-nav{
-    margin: 0px 0px 0px 20px;
+nav {
+  font-size: 1.8rem;
+  padding: 20px 30px;
+  margin: 0px 0px 0px 20px;
+  font-family: 'BIZ UDMincho', serif;
 }
 section {
+  margin: 0px 36px;
   border: 1px solid black;
-  padding: 1%; 
-      
+  padding: 2%;
 }
-.tamanhoimagem {
-  width: 500px;
-  height: 350px;
+p{
+  font-size: 20px;
+
 }
+#p2, #p3{
+  padding-bottom: 15rem;
+}
+#p4{
+  padding-bottom: 10rem;
+}
+
 .quadradodaimagem {
-  border: 1px solid black;
+  border: 2px solid black;
   width: fit-content;
-  
-  
 }
-figure{
-    border: 1px solid black;
-    
+img {
+  width: 450px;
+  height: 300px;
 }
-
-figcaption{
-    text-align: center;
+figure {
+  border: 1px solid black;
 }
 
-#imagem3{
-    float: right;
+figcaption {
+  font-size: x-large;
+  text-align: center;
+}
+
+#imagem2{
+  float: left;
+}
+
+#imagem3 {
+  float: right;
 }
 #imagem4{
-    clear: both;
+  float: left;
+}
+#imagem5{
+  float:right
 }
