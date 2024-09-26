@@ -16,10 +16,31 @@ button:hover{
 p:hover{
     background-color: rgba(4, 0, 255, 0.705);
     color: rgb(0, 0, 0);
+    
 }
 input:focus{
     background-color:rgba(184, 184, 184, 0.233);
 }
 li:first-child{
-    border: 1px solid orange;
+    border: 1px solid orange
+}
+#p2::after{
+    content: "Aqui nos add o after  ";
+    border: 2px solid black
+}
+#p3::before{
+    content: "Aqui fica o before";
+    border: 2px solid blue;
+}
+.p4::first-letter{
+    font-size: 2em;
+    color: blue;
+}
+.p4::first-line{
+    color: lime;
+    text-shadow:  black black;
+}
+#p5::selection{
+    background-color: rgb(0, 255, 170);
+    color: black;
 }

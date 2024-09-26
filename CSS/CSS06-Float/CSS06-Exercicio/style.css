@@ -1,15 +1,12 @@
 @charset "utf-08";
 
-body{
-  font-family: Arial, Helvetica, sans-serif;
-}
 header,
 main,
-footer {
+footer{
   background-color: #d4efdf;
   margin-left: 10%;
   margin-right: 10%;
-
+  padding: 1rem;
 }
 #imageminicial {
   width: 200px;
@@ -45,7 +42,7 @@ p{
 }
 img {
   width: 450px;
-  height: 300px;
+  height: 350px;
 }
 figure {
   border: 1px solid black;
@@ -59,7 +56,6 @@ figcaption {
 #imagem2{
   float: left;
 }
-
 #imagem3 {
   float: right;
 }
@@ -68,4 +64,12 @@ figcaption {
 }
 #imagem5{
   float:right
+}
+ol{
+  font-size: larger;
+}
+
+footer{
+  font-size: 1.3em;
+  font-family: 'Akaya Kanadaka', cursive;
 }

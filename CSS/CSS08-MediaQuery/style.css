@@ -1,0 +1,16 @@
+img{
+    width: 700px;
+    height: 700px;
+}
+h1{
+    font-size: 5rem;
+}
+@media(max-width: 420px) {
+    body{
+        background-color: rgb(3, 255, 3) ;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    
+}
