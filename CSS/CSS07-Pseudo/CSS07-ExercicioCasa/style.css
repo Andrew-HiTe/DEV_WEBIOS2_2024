@@ -1,19 +1,63 @@
-
-
-.container{
-    padding: 10em;
-
+* {
+  font-size: 24px;
 }
-#img1{
-    width: 500px;
-    height: 350px;
-    float: left;
+body {
+  margin: 2%;
 }
-p1::first-child{
-    background-color: #314a20;
+p:hover {
+  background-color: green;
+  color: white;
+}
+.container {
+  padding: 2em;
+  border: 2px solid #314a20;
+  background: linear-gradient(#725436, #314a2052);
+  margin: 1%;
+}
+#img1,
+#img2 {
+  width: 350px;
+  height: 200px;
+  float: left;
 }
 
-a{
-    clear: both;
-    float: left;
+#img1:hover {
+  border: 3px outset #533618;
+  /* background-image: linear-gradient(); nao consegui colocar outra cor */
+}
+
+#p1 {
+  margin-left: 16rem;
+}
+#p2 {
+  margin-left: 16rem;
+}
+#p1:first-line {
+  color: #c1c2bc;
+  background-color: #533618;
+}
+
+#button1 {
+  margin-left: 386px;
+  float: left;
+}
+
+button:hover {
+  background-image: linear-gradient(#c1c2bc, #314a20);
+}
+
+.letrainicial::first-letter {
+  font-size: 170%;
+  color: brown;
+}
+#direitos::before {
+  content: "2024";
+}
+#direitos::after {
+  content: "|| Andrew Hideaki Teruya";
+}
+.img3 {
+  width: 50%;
+  height: 50%;
+  margin-left: 23%;
 }
