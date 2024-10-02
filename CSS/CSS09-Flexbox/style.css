@@ -1,0 +1,32 @@
+.item{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    background-color: #00d9ff; 
+    font-size: larger;
+    flex-grow:0.06;    
+
+}
+#container {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid green;
+    background-color: rgb(18, 221, 103);
+    align-items: center;
+    
+
+}
+
+.item-1{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    
+    
+}
+.item-2{
+
+}
