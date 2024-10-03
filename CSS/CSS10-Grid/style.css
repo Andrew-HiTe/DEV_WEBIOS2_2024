@@ -1,0 +1,11 @@
+.container{/*Elemento pai*/
+display: grid;
+grid-template-columns: 80px 90px 90px 80px;
+grid-template-rows: repeat(10, 40px);
+
+} 
+.item{
+    border: 1px black solid;
+    background-color: aqua;
+    margin: 3px
+}
