@@ -1,0 +1,58 @@
+/* O seu grid deverá conter 4 colunas e 6 linhas sendo divididas da seguinte forma:
+> Na primeira linha coloque dois itens e cada um deve ocupar a mesma quantidade de colunas.
+> Na segunda linha coloque apenas um único item de forma que ele ocupe todas as colunas.
+> Na terceira linha coloque apenas um único item de forma que ele ocupe todas as colunas.
+> Na quarta linha coloque um item que ocupe apenas a segunda e terceira coluna sendo assim a coluna um e quatro devem ficar vazias.
+> Na quinta linha coloque um item que ocupe todas as colunas.
+> Na sexta linha coloque três itens sendo que o primeiro item deve ocupar uma coluna a mais que os outros dois itens. */
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(6,40px);
+    background: black;
+    justify-content:center;
+}
+.item{
+    background-color: rgb(69, 19, 19);
+    color:white;
+    border: 2px rgb(255, 0, 0) solid;
+    
+}
+.i1{
+    grid-row: 1 / 2 ;
+    grid-column: 1 / 3;
+}
+.i2{
+    grid-row: 1 / 2;
+    grid-column: 3 / 5;
+}
+.i3{
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+}
+.i4{
+    grid-row: 3 / 4;
+    grid-column: 1 / 5;
+}
+.i5{
+    grid-row: 4 / 5;
+    grid-column: 2 / 4;
+}
+.i6{
+    grid-row: 5 / 6;
+    grid-column: 1 / 5;
+}
+.i7{
+    grid-row: 6 / 7;
+    grid-column: 1 / 3;
+}
+.i8{
+    grid-row: 6 / 7;
+    grid-column: 3 / 4;
+}
+.i9{
+    grid-row: 6 / 7;
+    grid-column: 4 / 5;
+}
+
