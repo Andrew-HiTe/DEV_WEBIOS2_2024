@@ -1,0 +1,27 @@
+        .container{/*Elemento pai*/
+        
+        display: grid;
+        grid-template-areas: 
+        "pera pera pera pera"
+        "maça maça . pipoca"
+        "laranja laranja laranja laranja";
+
+        } 
+        .item{
+        border: 1px black solid;
+        background-color: aqua;
+        }
+.i1{
+    grid-area: pipoca;
+    /* pra colocar alinhamento em só 1 item, só colocar na tags self */
+    justify-self: center ;
+}
+.i2{
+    grid-area: pera;
+}
+.i3{
+    grid-area: maça;
+}
+.i4{
+    grid-area: laranja;
+}

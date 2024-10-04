@@ -1,11 +1,38 @@
-.container{/*Elemento pai*/
-display: grid;
-grid-template-columns: 80px 90px 90px 80px;
-grid-template-rows: repeat(10, 40px);
+        .container{/*Elemento pai*/
+        height: 100vh;
+        display: grid;
+        
+        /* Se for pra colocar diferentes medidas pode ser colocado assim: */
+        grid-template-columns: 80px 90px 90px 80px;
+        /* Ou pra colocar quantas colunas ou retas coloca-se repeat(quantas_vezes,tamanho) */
+        grid-template-rows: repeat(6, 40px);/*Aqui tem 10 mas só esta sendo usado conforme a quantidade de itens. é possivel ver as linhas e colunas no inspecionar */
+        column-gap: 10px;
+        row-gap: 15px;
+        /* Posso colocar o mesmo tamanho para horizontal e vertical com só o:
+        gap: */
+        /* Ajustar horizontalmente pra onde o item centro da cell vai: center, start, end, stretch(default) */
+        justify-items: center ; 
+        align-items: start; /*É a mesma ideia mas verticalmente*/
+        /* O grid quando olhado no inspecionar colocando o mouse em cima do "grid" ele vai mostrar toda area do grid, que é ocupado parte da tela, então com a tag abaixo é possivel mover o conteudo inteiro */
+        justify-content: center;
+        /* justify-content: space-between; */
+        align-content: space-evenly ;
 
-} 
-.item{
-    border: 1px black solid;
-    background-color: aqua;
-    margin: 3px
+        } 
+        .item{
+        border: 1px black solid;
+        background-color: aqua;
+
+}
+.i1{
+    grid-area: Pipoca;
+}
+.i2{
+    grid-area: Pera;
+}
+.i3{
+    grid-area: Maçã;
+}
+.i4{
+    grid-area: Laranja;
 }
