@@ -1,12 +1,3 @@
-.item{
-    border: 1px solid black;
-    width: 60px;
-    height: 60px;
-    background-color: #00d9ff; 
-    font-size: larger;
-    flex-grow:0.06;    
-
-}
 #container {
     height: 30vh;
     display: flex;
@@ -17,6 +8,14 @@
     background-color: rgb(18, 221, 103);
     align-items: center;
     
+}
+.item{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    background-color: #00d9ff; 
+    font-size: larger;
+    flex-grow:0.06;    
 
 }
 
