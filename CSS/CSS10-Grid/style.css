@@ -6,7 +6,7 @@
         grid-template-columns: 80px 90px 90px 80px;
         /* Ou pra colocar quantas colunas ou retas coloca-se repeat(quantas_vezes,tamanho) */
         grid-template-rows: repeat(6, 40px);/*Aqui tem 10 mas só esta sendo usado conforme a quantidade de itens. é possivel ver as linhas e colunas no inspecionar */
-        column-gap: 10px;
+        column-gap: 10px;-------    
         row-gap: 15px;
         /* Posso colocar o mesmo tamanho para horizontal e vertical com só o:
         gap: */
