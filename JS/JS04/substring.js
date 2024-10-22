@@ -8,4 +8,4 @@ console.log(nome.charAt(0));
 
 let frase = "Na moral mano!"
 console.log(frase.split(" "));
-// Deixa a frase em arrays com a condição dos parenteses
+// Deixa a frase em arrays com a condição dos parenteses    
