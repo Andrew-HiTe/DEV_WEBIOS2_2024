@@ -1,2 +1,2 @@
-let nome = prompt(`Qual seu nome?`)
-alert(`Olá ${nome}! `)
+let nome = prompt(`Qual seu nome?`);
+alert(`Olá ${nome}! `);
