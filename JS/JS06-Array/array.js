@@ -37,7 +37,7 @@ let novasnotas = notas.toString()
 console.log(notas[0])
 console.log(typeof novasnotas[0]);
 
-// Join - 
+// Join - Transforma os números em uma string colocando separações
 console.log("========Join==========");
 
 let notasNovas = notas.join(" + ") 
