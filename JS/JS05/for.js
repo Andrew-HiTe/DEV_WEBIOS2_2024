@@ -10,7 +10,7 @@ let B = 1
 //{valor1, valor2, }
 for (i = 0; i <= 10; i++){
     NFibo = A
-    console.log(`O NFibo vira A. NFibo então fica = ${A}`);
+    console.log(`O NFibo vira A. O numero então fica = ${A}`);
     A = B
     console.log(`O A vira B. A então fica = ${B}`);
     B = NFibo + B 
