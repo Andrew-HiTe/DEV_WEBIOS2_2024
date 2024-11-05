@@ -1,5 +1,5 @@
 // objeto de alunos
-let aluno = {
+let aluno = [{
     nome: "Andrew",
     idade: 10,
     altura: 1.60,
@@ -8,7 +8,7 @@ let aluno = {
     isPaciencia: true,
     isChora: true,
     cor: "Roxo"
-}
+}]
 console.log(aluno);
 
 // Retora uma propriedade específica -> Coloca .(propriedade)
