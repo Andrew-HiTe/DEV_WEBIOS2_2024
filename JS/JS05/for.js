@@ -4,10 +4,10 @@
 //     console.log(`contador: ${contador}`);
 //     console.log(`Olá,${grupo[contador]}`);
 // }
+
 let NFibo = 0 
 let A = 0
 let B = 1
-//{valor1, valor2, }
 for (i = 0; i <= 10; i++){
     NFibo = A
     console.log(`O NFibo vira A. NFibo então fica = ${A}`);
