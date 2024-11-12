@@ -19,6 +19,6 @@ function Percorrer(elemento, indice){
 
 frutas.forEach((elemento, item) => {
     console.log(elemento);
-    console.log(indice);
+    console.log(item);
     
 });
