@@ -5,4 +5,3 @@ let numerosFilter = numeros.filter((elemento) => {
 
 console.log(numerosFilter);
 
-.
