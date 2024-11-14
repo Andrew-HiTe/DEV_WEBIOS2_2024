@@ -20,8 +20,8 @@ class Aluno {
     }
 }
 // Instancias
-let aluno1 = new Aluno("Andrew", 23, 1.63, true, true, "Amarelo");
-let aluno2 = new Aluno("Joss", 35, 1.73, false, true, "Verde");
+let aluno1 = new Aluno("Andrew", 2001, 1.63, true, true, "Amarelo");
+let aluno2 = new Aluno("Joss", 1996, 1.73, false, true, "Verde");
     
 aluno1.exibirInfo(); // Nome: Andrew, ano: 23, Altura: 1.63, Crachá: true, Camisa: true, Cor: Amarelo
 aluno2.exibirInfo(); // Nome: Jos, ano: 23, Altura: 1.63, Crachá: true, Camisa: true, Cor: Amarelo

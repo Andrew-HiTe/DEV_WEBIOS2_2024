@@ -32,6 +32,8 @@ function Contador(){
     }
 }
 
+console.log("-".repeat(30));
+
 console.log(Contador());
 
 console.clear()
@@ -50,17 +52,17 @@ let Soma  = (num1, num2) => { // pode passar o valor dentro
 
 console.log(Soma(3,5)); // passa o valor fora
 
-function Clique(){
-    let cliques = 1;
-    return cliques++
+let numero = 0;
+
+function Clique() {
+    numero++;
+    console.log(numero);
 }
 
-console.log(Clique());
-
-let ChamaPopup = () =>{
-    alert(`Parabéns você me chamou, descompensado!`)
+function ChamaPopup() {
+    alert("Número atual: " + numero);
 }
 
-let PasseMouse = () =>{
-    alert(`Parabéns você me chamou, descompensado!`)
+function PasseMouse() {
+    console.log("Você passou o mouse aqui!");
 }
