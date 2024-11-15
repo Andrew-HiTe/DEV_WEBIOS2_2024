@@ -18,19 +18,19 @@ class contaBancaria {
         this.numeroConta = numeroConta
     }
     contaPoupança() {
-        let taxaAdm = this.salario * 0.015
-        this.salario -= taxaAdm
-        console.log(`---CONTA POUPANÇA DE ${this.nome}---\nIdade: ${this.idade} anos. \nSexo: ${this.sexo}. \nO salário é de R$${this.salario}.\nA agencia é: ${this.agencia}, o número da conta é: ${this.numeroConta} e a conta é ${this.conta}\n`);
+        let taxaAdm = 0.015
+        this.salario -= this.salario * taxaAdm
+        console.log(`---CONTA POUPANÇA DE ${this.nome}---\nIdade: ${this.idade} anos. \nSexo: ${this.sexo}. \nA taxa de administração é: ${taxaAdm} \nO salário, descontado a taxa, é de R$${this.salario}.\nA agencia é: ${this.agencia}, o número da conta é: ${this.numeroConta} e a conta é ${this.conta}\n`);
     }
     contaCorrente() {
-        let taxaAdm = this.salario * 0.036
-        this.salario -= taxaAdm
-        console.log(`---CONTA CORRENTE DE ${this.nome}---\nIdade: ${this.idade} anos. \nSexo: ${this.sexo}. \nO salário é de R$${this.salario}.\nA agencia é: ${this.agencia}, o número da conta é: ${this.numeroConta} e a conta é ${this.conta}\n`);
+        let taxaAdm = 0.036
+        this.salario -= this.salario * taxaAdm
+        console.log(`---CONTA CORRENTE DE ${this.nome}---\nIdade: ${this.idade} anos. \nSexo: ${this.sexo}. \nA taxa de administração é: ${taxaAdm} \nO salário, descontado a taxa, é de R$${this.salario}.\nA agencia é: ${this.agencia}, o número da conta é: ${this.numeroConta} e a conta é ${this.conta}\n`);
     }
     contaEstudate() {
-        let taxaAdm = this.salario * 0.012
-        this.salario -= taxaAdm
-        console.log(`---CONTA ESTUDANTE de  ${this.nome}---\nIdade: ${this.idade} anos. \nSexo: ${this.sexo}. \nO salário é de R$${this.salario}.\nA agencia é: ${this.agencia}, o número da conta é: ${this.numeroConta} e a conta é ${this.conta}\n`);
+        let taxaAdm = 0.012
+        this.salario -= this.salario * taxaAdm
+        console.log(`---CONTA ESTUDANTE de  ${this.nome}---\nIdade: ${this.idade} anos. \nSexo: ${this.sexo}. \nA taxa de administração é: ${taxaAdm} \nO salário, descontado a taxa, é de R$${this.salario}.\nA agencia é: ${this.agencia}, o número da conta é: ${this.numeroConta} e a conta é ${this.conta}\n`);
     }
 }
 
